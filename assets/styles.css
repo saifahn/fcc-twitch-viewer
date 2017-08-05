@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik");
+
+img {
+  float: left;
+}
+
+body {
+  background-image: url('img/concrete-wall.png');
+  background-color: #478dff;
+  font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+  font-weight: 800;
+  color: #d17759;
+}
+
+h3 {
+  margin-left: 90px;
+  margin-top: 0px;
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-left: 90px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-align: left;
+}
+
+.stream-block {
+  background-image: url('img/circles.png');
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: block;
+  height: 100px;
+  width: 100%;
+  max-width: 500px;
+  border-radius: 0px;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,0.2), 0 1px 1px 0 rgba(0,0,0,0.2);
+}
+
+.online {
+  background-color: #64bf52;
+}
+
+.offline {
+  background-color: #969696;
+}
+
+.inactive {
+  background-color: #996344;
+  max-width: 400px;
+  height: 50px;
+  padding: 5px;
+}
+
+
+.hidden-content {
+  display: none;
+  box-shadow: none;
+}
+
+.alert {
+  color: yellow;
+}
+
+body {
+  text-align: center;
+}
+
+button {
+  font-size: 16px;
+  border-radius: 3px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/* selected link */
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  font-size: 0.7em;
+  color: lightgrey;
+}
+
+footer a {
+  color: lightgrey;
+  text-decoration: underline;
+}
+
+footer a:visited {
+  color: lightgrey;
+}
+
+footer a:hover {
+  color: black;
+  background-color: lightgrey;
+}
+
+footer a:active {
+  color: #996344;
+}
